@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->unsignedBigInteger('course_id');
 
             $table->string('name');
-            $table->bolean('free')->default(0);
+            $table->boolean('free')->default(0);
 
 
             $table->timestamps();
